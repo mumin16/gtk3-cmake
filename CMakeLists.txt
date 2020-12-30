@@ -11,8 +11,7 @@ if (APPLE)
     set(MACOSX_BUNDLE_ICON_FILE gtk3exampleicon.icns)
     # And this part tells CMake where to find and install the file itself
     set(myApp_ICON ${CMAKE_CURRENT_SOURCE_DIR}/Resources/gtk3exampleicon.icns)
-    set_source_files_properties(${myApp_ICON} PROPERTIES
-            MACOSX_PACKAGE_LOCATION "Resources")
+    set_source_files_properties(${myApp_ICON} PROPERTIES MACOSX_PACKAGE_LOCATION "Resources")
     add_executable(gtk3example MACOSX_BUNDLE ${myApp_ICON} main.cpp)
 else()
     # the WIN32 is needed for Windows in order for it to look for WinMain
