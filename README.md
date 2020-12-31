@@ -1,2 +1,2 @@
-# gtk3-cmake
-gtk3 cmake example
+# gtk4-cmake
+gtk4 cmake example
