@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>CFBundleIdentifier</key>
-    <string>com.mycompany.gtk3example</string>
+    <string>com.mycompany.gtkdemo</string>
  	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
     <key>CFBundlePackageType</key>
